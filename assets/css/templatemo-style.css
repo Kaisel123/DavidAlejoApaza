@@ -44,6 +44,14 @@ body {
     overflow-x: hidden;
 }
 
+.img_links_docs {
+    transition: transform .4;
+}
+
+.img_links_docs:hover {
+    transform: scale(1.1);
+}
+
 .card{
     background-color: rgba(250, 250, 250, 0.2);
 }
